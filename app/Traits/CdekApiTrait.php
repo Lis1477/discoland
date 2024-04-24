@@ -9,8 +9,8 @@ trait CdekApiTrait
         // Получаем токен
         $array = array();
         $array['grant_type']    = 'client_credentials';
-        $array['client_id']     = 'YMSunzKwf6iVF1gfR88JcT52xJexKRTR'; 
-        $array['client_secret'] = '7YCeYxq92n3H7kQtFXpfNqJTDOJc072C'; 
+        $array['client_id']     = ''; 
+        $array['client_secret'] = ''; 
          
         $ch = curl_init('https://api.cdek.ru/v2/oauth/token?parameters');
         curl_setopt($ch, CURLOPT_POST, 1);
